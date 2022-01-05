@@ -3,7 +3,7 @@ const fs = require("fs");
 
 const server = net.createServer();
 
-const port = process.env.PORT || 25565;
+const port = 25565;
 
 let icon = "./Earthnetwork.png";
 
@@ -20,7 +20,7 @@ const config = {
         "protocol": 340
     },
     "players": {
-        "max": 100,
+        "max": 2022,
         "online": 0,
         "sample": [
             {
