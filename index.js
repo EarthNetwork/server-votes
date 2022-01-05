@@ -5,7 +5,7 @@ const server = net.createServer();
 
 const port = process.env.PORT || 25565;
 
-let icon = "./example.png";
+let icon = "./Earthnetwork.png";
 
 // Read the Icon as base64
 icon = fs.readFileSync(icon, { encoding: "base64" });
