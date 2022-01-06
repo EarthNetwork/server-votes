@@ -30,7 +30,7 @@ const config = {
         ]
     },
     "description": {
-        "text": "\u00a7k---\u00a72 Merci d'utiliser le launcher\u00a7r\u00a7k ---\n- \u00a7ahttps:\/\/earthnetwork.fr\u00a7r\u00a7k ---"
+        "text": "\u00a7k---\u00a72 Merci d'utiliser le launcher\u00a7r\u00a7k ---\n--- \u00a7ahttps:\/\/earthnetwork.fr\u00a7r\u00a7k ---"
     },
     "favicon": `data:image/png;base64,${icon}`
 }
