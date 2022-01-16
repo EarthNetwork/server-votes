@@ -177,7 +177,7 @@ const parsePacket = {
 }
 
 server.listen(port, null, () => {
-    log(`Fake Minecraft Server Listening in ${port}`);
+    log(`Ready`);
 });
 
 // Logging stuff
