@@ -72,7 +72,7 @@ server.on("connection", (socket) => {
                     // Changing the protocol to client protocol
                     config.version.protocol = protocol
 
-                    log(`Handshake is initiated with hostname ${hostname} and port ${port}`);
+                    //log(`Handshake is initiated with hostname ${hostname} and port ${port}`);
 
                     socket.write(encode(config));
                     break;
@@ -82,12 +82,12 @@ server.on("connection", (socket) => {
                     https://wiki.vg/Protocol#Disconnect_.28login.29
                     */
 
-                    log(`${player} is trying to connect to ${hostname}:${port}`);
+                    //log(`${player} is trying to connect to ${hostname}:${port}`);
 
                     socket.write(encode(kickMessage));
                     break;
                 default:
-                    log(`Responding to ping`);
+                    //log(`Responding to ping`);
                     socket.write(buffer);
                     break
             }
